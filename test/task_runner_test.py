@@ -1,13 +1,16 @@
+
+
+
 import random
 import time
 import asyncio
 from pathlib import Path
 
-from .task import *
+from ..task import *
 
 #from .tasks import task_rmtree
 #from .task import task, task_graph
-from .runner.main import runTaskGraph
+from ..runner.main import runTaskGraph
 
 
 def printFn(*strs, **extras):
